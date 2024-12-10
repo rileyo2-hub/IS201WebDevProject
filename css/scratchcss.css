@@ -1,0 +1,58 @@
+body{
+    background-color: silver;
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.main-content{
+    margin-left:220px;
+    padding:20px;
+}
+.sidebar{
+    background-color: white;
+    width:200px;
+    height: 100%;
+    left: 0;
+    padding: 15px;
+    position: fixed;
+}
+.sidebar ul{
+    list-style:none;
+    padding: 0;
+}
+.sidebar ul li{
+    margin: 15px 0;
+}
+.sidebar ul li a{
+    color:navy;
+    text-decoration: none;
+}
+.sidebar ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    background-color: gray;
+    border-radius:5px;
+}
+.box-model{
+    padding: 15px;
+    background-color: white;
+    border: 5px solid navy;
+    margin: 20px;
+}
